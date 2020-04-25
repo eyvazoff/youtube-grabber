@@ -26,8 +26,8 @@ git clone https://github.com/eyvazoff/youtube-grabber.git
 | id | Youtube video ID |
 | type | mp3 or mp4 |
 
-- URL - http://localhost:300/{id}/{type}
-- Example URL - http://localhost:300/TpgwhHFH6Rw/mp4
+- URL - http://localhost:3000/{id}/{type}
+- Example URL - http://localhost:3000/TpgwhHFH6Rw/mp4
 
 
 ## Proxy
