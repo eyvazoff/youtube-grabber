@@ -1,6 +1,6 @@
 {
   "name": "youtube-grabber",
-  "version": "1.0.33",
+  "version": "1.0.34",
   "description": "Youtube to mp3/mp4 converter (ytmp3)",
   "main": "index.js",
   "scripts": {

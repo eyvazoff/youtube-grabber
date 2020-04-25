@@ -7,14 +7,18 @@
 npm install youtube-grabber
 ```
 
-| Command | Description |
-|---------|-------------|
-| node node_modules/youtube-grabber | Listen on [http://localhost:3000](http://localhost:3000). (hot reload) |
+| Command |
+|---------|
+| node node_modules/youtube-grabber |
 
 ## Installation GIT
 ```bash
 git clone https://github.com/eyvazoff/youtube-grabber.git
 ```
+
+| Command |
+|---------|
+| nodemon or node index.js |
 
 
 
