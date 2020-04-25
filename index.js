@@ -23,6 +23,9 @@ app.get('/video/:id/:type', async (req, res) => {
             success: false
         };
         let args = [];
+        const proxy_ip = '8.8.8.8';
+        const proxy_port = '3001';
+        const proxy = false;
         if (process.env.NODE_ENV === 'development') {
             args.push('--disable-dev-shm-usage');
             debug = true;
@@ -30,7 +33,7 @@ app.get('/video/:id/:type', async (req, res) => {
             debug = false;
             args.push('--no-sandbox');
             args.push('--disable-setuid-sandbox');
-            /*args.push(`--proxy-server=http://37.221.83.221:30001`);*/
+            if(proxy) args.push(`--proxy-server=http://${proxy_ip}:${proxy_port}`);
         }
         await puppeteer.launch({headless: true, args: args, ignoreDefaultArgs: ['--disable-extensions']}).then(async browser => {
             let navigated = false;

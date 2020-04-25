@@ -1,7 +1,7 @@
 {
   "name": "youtube-grabber",
-  "version": "1.0.2",
-  "description": "",
+  "version": "1.0.3",
+  "description": "Youtube to mp3/mp4 converter (ytmp3)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
