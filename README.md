@@ -1,18 +1,22 @@
 # Youtube Grabber (ytmp3)
 
 
-## Installation
-
+## Installation NPM
 
 ```bash
 npm install youtube-grabber
 ```
 
-## Commands
-
 | Command | Description |
 |---------|-------------|
 | node node_modules/youtube-grabber | Listen on [http://localhost:3000](http://localhost:3000). (hot reload) |
+
+## Installation GIT
+```bash
+git clone https://github.com/eyvazoff/youtube-grabber.git
+```
+
+
 
 
 ## TIP
