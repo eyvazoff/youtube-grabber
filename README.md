@@ -12,7 +12,7 @@ npm install youtube-grabber
 
 | Command | Description |
 |---------|-------------|
-| nodemon | Listen on [http://localhost:3000](http://localhost:3000). (hot reload) |
+| node node_modules/youtube-grabber | Listen on [http://localhost:3000](http://localhost:3000). (hot reload) |
 
 
 ## TIP
