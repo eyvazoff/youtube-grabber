@@ -45,7 +45,7 @@ See variables in index.js
 |-----|-------|
 | proxy | Default: false (Boolean) |
 | proxy_ip | 8.8.8.8|
-| proxy_host | 3001 |
+| proxy_port | 3001 |
 
 ## Success
 ~~~~
